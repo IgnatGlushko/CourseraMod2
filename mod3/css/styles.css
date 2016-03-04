@@ -1,0 +1,73 @@
+ #nav-list{
+font-size: 16px; 
+ }
+
+.navbar-brand {
+  padding-top: 25px;
+ }
+
+
+.navbar-brand  h1{ /* Restaurant name */
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#ecf0f1;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+#header-nav {
+  background-color:#2ecc71;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+ 
+}
+#nav-list li{
+text-align:center;
+margin-top: 10px;
+}
+
+
+.jumbotron{
+height: 1200px;
+margin:10px;
+
+}
+
+h1 {
+font-size: 20px;
+text-align: center;
+padding-bottom: 10px;
+
+}
+
+#Column1, #Column2, #Column3{ 
+padding: 20px;
+} 
+
+#Column1 h3,#Column2 h3, #Column3 h3 { 
+text-align: center; 
+padding: 5px; 
+margin-top:5px;
+text-align: center;
+font-size:18px; 
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-weight: bold;
+} 
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
