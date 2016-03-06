@@ -1,3 +1,7 @@
+ *{
+	 box-sizing:border-box;
+ }
+ 
  #nav-list{
 font-size: 16px; 
  }
@@ -37,21 +41,23 @@ margin-top: 10px;
 }
 
 
-.jumbotron{
-height: 1200px;
-margin:10px;
-
+.row{
+margin:5px;
+background-color: #cccccc;
+    padding: 20px;
+    height: 1000px;
+    overflow: hidden;
 }
 
-h1 {
+#main-content h1 {
 font-size: 20px;
-text-align: center;
 padding-bottom: 10px;
 
 }
 
 #Column1, #Column2, #Column3{ 
 padding: 20px;
+display:block;
 } 
 
 #Column1 h3,#Column2 h3, #Column3 h3 { 
